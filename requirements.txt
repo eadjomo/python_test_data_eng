@@ -1,2 +1,2 @@
-nose
-sphinx
+pylint==2.15.10
+pytest==7.2.0

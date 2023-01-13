@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Learn more: https://github.com/kennethreitz/setup.py
-
 from setuptools import setup, find_packages
 
 
@@ -12,13 +8,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='python_test_data_eng',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Python test for a data engineer job position',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Essale ADJOMO',
+    author_email='eadjomo@enydata.co',
+    url='https://github.com/okulab/python_test_data_eng',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
