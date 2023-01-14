@@ -5,7 +5,7 @@ name: Python application
 
 on:
   push:
-    branches: [ "develop",${GITHUB_REF##*/} ]
+    branches: [ "develop"]
   pull_request:
     branches: [ "master" ]
 
