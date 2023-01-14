@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-
+"""Module providingFunction printing python version."""
 import unittest
 
 
 def test_absolute_truth_and_meaning():
+    """Function printing python version."""
     assert True
 
 
